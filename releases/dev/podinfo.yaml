@@ -10,9 +10,9 @@ metadata:
 spec:
   releaseName: podinfo-dev
   chart:
-    git: git@github.com:svidrascu/helm-operator-get-started
-    path: charts/podinfo
-    ref: master
+    repository: https://kubernetes-charts.alfresco.com/incubator
+    name: activemq
+    version: 1.1.0
   values:
     image:
       repository: svidrascu/podinfo
